@@ -1,0 +1,10 @@
+x=input("enter a number x ")
+y=input("enter a number y ")
+z=input("enter a number z ")
+temp=z
+z=y
+y=x
+x=temp
+print("z=",z)
+print("y=",y)
+print("x",x)
